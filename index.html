@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jay's Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Ubuntu" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.4/bootstrap-table.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Intro -->
+  <section class="colored-section" id="introduction">
+
+    <div id="introduction-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h1 class="introduction-text">I'm Jay.</h1>
+          <p>a developer</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2>My Skills</h2>
+          <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#introduction-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#introduction-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section class="white-section" id="projects">
+    <div class="container-fluid">
+
+      <h1>Projects</h1>
+
+      <table id="table" data-toggle="table" data-custom-sort="customSort">
+        <thead>
+          <tr>
+            <th data-field="Project Name" data-sortable="true">Project Name</th>
+            <th data-field="Domain" data-sortable="false">Domain</th>
+            <th data-field="Start Date" data-sortable="true">Start Date</th>
+            <th data-field="End Date" data-sortable="true">End Date</th>
+            <th data-field="Description" data-sortable="false">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GrubHub - Restuarant Website</td>
+            <td>Web Development</td>
+            <td>01/08/20</td>
+            <td>20/10/20</td>
+            <td>Built a multifunctional website with a complex ordering system using HTLM 5, CSS, and bug-free code</td>
+          </tr>
+          <tr>
+            <td>CrytoMart - Crypto App</td>
+            <td>Android App Development</td>
+            <td>01/08/21</td>
+            <td>20/10/21</td>
+            <td>Developed and coded a complex app, compatible with Android devices, designed to help crypto traders check the current trends in crypto market.</td>
+          </tr>
+          <tr>
+            <td>Model machine learning to enable automotive sector to adapt industry 4.0 practices</td>
+            <td>ML</td>
+            <td>01/08/21</td>
+            <td>20/04/22 </td>
+            <td>Research based project, where I studied the current market senario of the automotive sector and how ML can be used for the next I4.0 revolution</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- Blog -->
+  <section class="colored-section" id="blog">
+    <div class="container-fluid">
+      <h2 class="section-heading">Blog Posts</h2>
+      <p>Fetching blogs content from this URL every time page loads</p>
+
+      <div class="row">
+
+        <div class="blog-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h1 class="userId"></h1>
+            </div>
+            <div class="card-body">
+              <h2 class="iden"></h2>
+              <h3 class="title"></h3>
+              <p class="body"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback Form -->
+  <section class="white-section" id="projects">
+
+
+    <div class="container-fluid">
+      <h2>FEED BACK FORM</h2>
+      <form>
+        <div class="row">
+          <div class="col">
+            <label for="name">Name</label>
+          </div>
+          <div class="col">
+            <input type="text" id="name" name="name" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="name">Date</label>
+          </div>
+          <div class="col">
+            <input type="date" id="date" name="date">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="name">Feedback Title</label>
+          </div>
+          <div class="col">
+            <input type="text" id="form_title" name="form_title" placeholder="Enter title..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="message_box">Message Box</label>
+          </div>
+          <div class="col">
+            <textarea id="text" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="name">Category</label>
+          </div>
+          <div class="col">
+            <input type="checkbox" id="occupation1" name="category">
+            <label for="occupation1"> I am an Engineer</label><br>
+            <input type="checkbox" id="occupation2" name="occupation2" value="Car">
+            <label for="occupation2"> I am an HR Rep</label><br>
+            <input type="checkbox" id="occupation3" name="occupation3" value="Boat">
+            <label for="occupation3"> I am a PR rep</label><br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="gender">Please select your Gender:</label>
+          </div>
+          <div class="col">
+              <input type="radio" id="male" name="gender" value="Male">
+              <label for="html">Male</label><br>
+              <input type="radio" id="female" name="gender" value="Female">
+              <label for="female">Female</label><br>
+              <input type="radio" id="rather_not_say" name="gender" value="Rather not say">
+              <label for="rather_not_say">Rather not say</label>
+          </div>
+        </div>
+        <div class="row">
+          <button type="button" onclick="result();">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

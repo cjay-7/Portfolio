@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  line-height: 1.5
+}
+
+p {
+  color: #fafafa;
+  font-size: 1rem;
+}
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#introduction {
+  background-color: #ef8172;
+}
+
+.introduction-text {
+  margin: 0 auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+#table {
+  font-size: .8rem;
+}
+
+#projects {
+  font-size: .8rem;
+}

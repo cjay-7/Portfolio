@@ -1,0 +1,25 @@
+{
+  "Sheet1": [
+    {
+      "Project Name": "GrubHub - Restuarant Website",
+      "Domain": "Web Development",
+      "Start Date": 44044,
+      "End Date": 44124,
+      "Description": "Built a multifunctional website with a complex ordering system using HTLM 5, CSS, and bug-free code"
+    },
+    {
+      "Project Name": "CrytoMart - Crypto App ",
+      "Domain": "Android App Development",
+      "Start Date": 44409,
+      "End Date": 44489,
+      "Description": "Developed and coded a complex app, compatible with Android devices, designed to help crypto traders check the current trends in crypto market."
+    },
+    {
+      "Project Name": "Model machine learning to enable automotive sector to adapt industry 4.0 practices",
+      "Domain": "ML",
+      "Start Date": 44409,
+      "End Date": 44671,
+      "Description": "Research based project, where I studied the current market senario of the automotive sector and how ML can be used for the next I4.0 revolution"
+    }
+  ]
+}
